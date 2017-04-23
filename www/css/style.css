@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+}
+.bg {
+    background-image: url("../image/sakura.jpg");
+    background-size: 100% auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.bg:before {
+    background: rgba(0,0,0,.3) url(../image/mesh.png) repeat;
+    background-size: 3px 3px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    padding-top: 100px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.heisei {
+    font-size: 22px;
+}
+
+.jikoku{
+    padding-top: 50px;
+}
+
+#time{
+    font-size: 50px;
+}
+
+.ad {
+    background: rgba(0,0,0,.3);
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 100px;
+    margin: 120px auto 10px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
